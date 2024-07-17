@@ -40,3 +40,6 @@ SELECT * FROM tb_colaboradores where salario < 2000.00;
 SET SQL_SAFE_UPDATE = 1;
 
 update tb_colaboradores set  salario = 14500.00 where id = 1;
+
+-- Decimal
+alter table tb_produtos modify preco decimal(6,2); 
